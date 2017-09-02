@@ -1,0 +1,203 @@
+
+
+section {
+  background: #fff;
+  float: left;
+  width: 625px;
+  position: relative;
+  margin: 3.3% 5% 3.6% 0%;
+}
+
+form {
+  padding: 5px;
+}
+
+form h1 {
+  color: #4aaaa5;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 2% 4.8%;
+}
+
+form hr {
+  height: 2px;
+  background: #ebebeb;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+form p {
+  margin: 2% 4.8%;
+}
+
+#fname, #email, textarea {
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    padding: 10px;
+    border: 2px solid #ccc;
+}
+
+#msg {
+  height: 200px;
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    width: 120px;
+    font-size: 18px;
+    color: white;
+    margin: 20px 30px;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background: #367c79;
+}
+
+/*Begin Rsponsive Styles*/
+
+@media screen and (max-width: 980px) {
+  
+  #name-container {
+    max-width: 980px;
+    margin-left: -5.8%;
+  }
+
+  nav {
+    margin-right: 5.9%;
+  }
+
+section {
+    margin-left: -5%;
+    margin-right: 5%;
+    width: 50%;
+  }
+
+section img {
+    float: none;
+    height: 435px;
+    margin-bottom: 15px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  #name {
+    margin: 5.4%;
+  }
+
+  nav {
+    margin-right: 0;
+  }
+
+  .content {
+    margin-left: 2.6%;
+  }
+
+  section {
+    width: 725px;
+    margin-left: 0;
+  }
+
+  aside {
+    width: 725px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  aside h1 {
+    text-align: left;
+    margin-left: 4%;
+  }
+
+  .aside-img {
+    margin-left: 25px;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  header {
+    float: none;
+    max-width: 640px;
+    width: 100%;
+  }
+
+  header h1 {
+    margin: 0;
+  }
+
+  .header-container {
+    text-align: center;
+    padding: 0;
+  }
+
+  .name-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  #name {
+    background: #4aaaa5;
+    margin: 0;
+    display: block;
+  }
+
+  nav {
+    float: none;
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+  }
+
+  .main-nav {
+    float: none;
+    margin: 0;
+    text-align: center;
+  }
+
+  .main-nav li {
+  float: none;
+  display: inline;
+  padding: 30px 50px;
+}
+
+  .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #paragraph img {
+    float: none;
+    height: 520px;
+  }
+
+  aside, section {
+    float: none;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  aside {
+    padding-bottom: 88px;
+  }
+
+  aside h1 {
+    text-align: left;
+    padding-left: 5px;
+  }
+
+  .aside-img {
+    margin-top: 20px;
+  }
+
+}
+
+
+  
+

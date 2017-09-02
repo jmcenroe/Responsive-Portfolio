@@ -11,6 +11,7 @@
 	
 	<link rel="stylesheet" href="Assets/CSS/reset.css">
 	<link rel="stylesheet" href="Assets/CSS/style.css">
+	<link rel="stylesheet" href="Assets/CSS/contact.css">
 
 </head>
 
@@ -25,28 +26,29 @@
 				<ul class="main-nav">
 					<li><a href="index.html">About</a> </li> 
 					<li><a href="#">Portfolio</a></li> 
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="#">Contact</a></li>
 				</ul>
 			</nav>	
 		</header>
 
 	<div class="content">				
 		<section>
-			<article>
-				<h1 class="about">About Me</h1>
+			<form>
+				<h1>Contact</h1>
 
-				<hr id="about">
+				<hr>
+			
+				<p>Name</p>	
+				<input type="text" id="fname" name="firstname" placeholder="John Smith">
 
-				<div id="paragraph">
-					<img src="Assets/img/profile.jpg" alt="Jarrod McEnroe">
+				<p>Email</p>	
+				<input type="text" id="email" name="email" placeholder="example@gmail.com">
 
-					<p>I was born and raised in Sourthern California, so I always knew I would end up living in a place like San Diego. I moved here over 4 years ago and never looked back. 
+				<p>Message</p>	
+				<textarea id="msg" name="message" placeholder=""></textarea>
 
-					<br><br>
-
-					I have worked in a regular office jobs for the past 10 years and decided I needed a change. The need to get creative and understand the technology I use daily became too strong to ignore. The more I looked into coding as a hobby, the more fun (and frustrating) it became. After many attempts to teach myself coding, I decided to enroll in a coding bootcamp. Although I am new to coding, I am excited about all of the opportunities it presents!</p>
-				</div>
-			</article>
+				<input type="submit" value="Submit">
+			</form>
 		</section>
 
 		<aside>

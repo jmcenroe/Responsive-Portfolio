@@ -24,6 +24,10 @@ p {
 /* Start Header section */
 
 
+header {
+  position: sticky;
+}
+
 .header-container {
   overflow: hidden;
   background: #ffffff;

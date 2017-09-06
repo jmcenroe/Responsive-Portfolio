@@ -1,54 +1,140 @@
+body {
+  margin-left: -5%;
+}
+
+#name-container {
+  margin-right: 27%;
+}
 
 section h1 {
     color: #4aaaa5;
     font-size: 21px;
     font-weight: bold;
-    text-align: left;
+    padding: 20px 30px;
+}
+
+section hr {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+section ul {
+  margin: 5%;
+}
+
+section li {
+  float: left;
+  padding: 14px;
+}
+
+.img-banner {
+  float: none;
+  background: #4aaaa5;
+  color: #fff;
+  height: 50px;
+  width: 100%;
+}
+
+li p {
+  color: #fff;
+  font-family: Georgia;
+  text-align: center;
+  padding: 15px;
+  }
+
+section img {
+  height: 200px;
+}
+
+#trivia {
+  width: 90%;
+}
+
+#aside {
+  height: 2px;
+  background: #D3D3D3;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 /*Begin Rsponsive Styles*/
 
-@media screen and (max-width: 980px) {
-  
-  section {
-    margin-left: -2%;
+@media screen and (max-width: 640px) {
+
+  header {
+    position: static;
   }
 
-  section hr {
-    margin: 0 30px;
-    height: 2px;
+  header h1 {
+
   }
 
-  section h1 {
-    padding: 20px;
+  .header-container {
+
+  }
+
+#name {
+    width: 100%;
+  }
+
+.main-nav {
+    float: none;
+  }
+
+ .content {
+    width: 80%;
+    margin-left: 5%;
+  }
+
+  #paragraph img {
+    float: none;
+    height: 520px;
+  }
+
+ section {
+    width: 100%;
+    margin: 20px 0;
   }
 
   section img {
-    float: none;
-    height: 310px;
-    margin: 30px;
+    width: 80%;
   }
 
-/*  .img-banner {
-    float: none;
-    background: #4aaaa5;
-    color: #fff;
-    height: 50px; 
-    width: 100%;  
-  }*/
+  .img-banner {
+
+  }
+  
+  aside {
+    padding-bottom: 88px;
+  }
+
+  aside h1 {
+    text-align: left;
+    padding-left: 5px;
+  }
+
+  .aside-img {
+    margin-top: 20px;
+  }
+
+}
 
 @media screen and (max-width: 768px) {
 
-/*  #name {
-    margin: 5.4%;
-  }
+.header-container {
+  padding-bottom: 15px; 
+}
 
-  nav {
+#name-container {
+  margin: 0;
+}
+
+nav {
     margin-right: 0;
   }
 
   .content {
-    margin-left: 2.6%;
+    margin-left: 7.5%;
   }
 
   section {
@@ -71,85 +157,37 @@ section h1 {
     margin-left: 25px;
   }
 
-}*/
-
-@media screen and (max-width: 640px) {
-
-  /*header {
-    float: none;
-    max-width: 640px;
-    width: 100%;
-  }
-
-  header h1 {
-    margin: 0;
-  }
-
-  .header-container {
-    text-align: center;
-    padding: 0;
-  }
-
-  .name-container {
-    width: 100%;
-    margin: 0;
-  }
-
-  #name {
-    background: #4aaaa5;
-    margin: 0;
-    display: block;
-  }
-
-  nav {
-    float: none;
-    display: block;
-    margin: 10px auto;
-    width: 100%;
-  }
-
-  .main-nav {
-    float: none;
-    margin: 0;
-    text-align: center;
-  }
-
-  .main-nav li {
-  float: none;
-  display: inline;
-  padding: 30px 50px;
 }
 
-  .content {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  #paragraph img {
-    float: none;
-    height: 520px;
-  }
-
-  aside, section {
-    float: none;
-    width: 100%;
-    margin: 20px 0;
-  }
+@media screen and (max-width: 980px) {
   
-  aside {
-    padding-bottom: 88px;
+/*  section {
+    margin-left: -2%;
+  }*/
+
+/*  section hr {
+    margin: 0 30px;
+    height: 2px;
+  }*/
+
+  section h1 {
+    padding: 20px;
   }
 
-  aside h1 {
-    text-align: left;
-    padding-left: 5px;
+  section img {
+    float: none;
+    height: 310px;
+    margin: 30px;
   }
 
-  .aside-img {
-    margin-top: 20px;
+  .img-banner {
+    float: none;
+    background: #4aaaa5;
+    color: #fff;
+    height: 50px; 
+    width: 100%;  
   }
 
-}*/
 
 
   

@@ -33,7 +33,7 @@ header {
   background: #ffffff;
   border-bottom: solid;
   border-bottom-color: #cccccc;
-  padding: 20px;
+  padding-top: 27px;
 }
 
 #name {
@@ -42,27 +42,21 @@ header {
   color: #fff;
   font-size: 24px;
   font-weight: bold;
-  padding: 20px;
-  margin-left: 11.7%;
+  padding: 25px;
+  margin-left: 11.5%;
 }
 
 nav {
   float: right;
   font-family: arial;
   font-size: 18px;
-  margin-top: -1.8%;
-  margin-right: 12.8%;
-}
-
-.main-nav {
-  display: block;
-  margin-right: -28%;
+  margin-right: 11.5%;
 }
 
 .main-nav li {
   float: left;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 a {
@@ -88,7 +82,7 @@ a:active {
 
 .content {
   width: 980px;
-  margin: 0 10% auto;
+  margin: 0 auto;
 }
 
 
@@ -118,9 +112,7 @@ article {
   color: #4aaaa5;
   font-size: 24px;
   font-weight: bold;
-  padding-top: 35px;
-  padding-left: 30px;
-  padding-bottom: 30px;
+  padding: 35px 0 30px 30px;
 }
 
 article hr {
@@ -132,10 +124,7 @@ article hr {
 
 #paragraph {
   line-height: 1.7;
-  padding-top: 10px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
+  padding: 10px 30px 30px 30px;
 }
 
 p {
@@ -148,9 +137,8 @@ aside {
   background: #fff;
   border: 2px #ebebeb;
   float: left;
-  margin-top: 32px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin-top: 3.3%;
+  padding: 3% 2%;
 }
 
 aside h1 {
@@ -168,8 +156,8 @@ aside h1 {
 }
 
 .aside-img {
-  margin-top: 15px;
-  margin-left: 25px;
+  margin-top: 7%;
+  margin-left: 1%;
 }
 
 .aside-img li {
@@ -207,23 +195,26 @@ footer p {
 @media screen and (max-width: 980px) {
   
   #name-container {
-    max-width: 980px;
-    margin-left: -5.8%;
+    max-width: 768px;
+    margin-left: 2%;
   }
 
   nav {
-    margin-right: 5.9%;
+    margin-right: 7%;
   }
 
-section {
-    margin-left: -5%;
-    margin-right: 5%;
-    width: 50%;
+  .content {
+    padding: 0 20px;
+    max-width: 768px;
   }
 
-section img {
+  section {
+    max-width: 420px;
+  }
+
+  section img {
     float: none;
-    height: 435px;
+    height: 365px;
     margin-bottom: 15px;
   }
 
